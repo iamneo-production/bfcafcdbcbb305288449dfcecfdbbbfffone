@@ -6,13 +6,18 @@ body
         #title
         {
             background-color: white;
-            width: 900px;
-            height: auto;
-            align-items: center;
+          
         }
         #submit
         {
-            background-color: green;
+            background-color: greenyellow;
             height: 20px;
             width: auto;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        #text{
+            margin:50%;
         }
