@@ -10,11 +10,18 @@ body
         }
         #submit
         {
-            background-color: dar;
+            background-color: darkgreen;
             height: auto;
             width: auto;
             padding:5px;
             color: white;
+            border-style: none;
+            border-radius: 3px;
+
+            display: block;
+            margin-left: 20%;
+            
+
            
         }
         h1{
