@@ -3,10 +3,8 @@ body
             background-color: gray;
 
         }
-        #title
-        {
+        .container{
             background-color: white;
-          
         }
         #submit
         {

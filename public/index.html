@@ -1,21 +1,21 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="app.js"></script>
-    </head>
-    <body>
-        
-        <div id="title">
-        <div  style="align-content: center;">
-        <h1>Word Count</h1>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+                <h1>Word Count</h1>
+            <div id="align">
+                <textarea id="text-area" cols="90" rows="10"></textarea><br>
+                <button id="count-button" onclick=cal()>Count Words</button>
+                <p id="word-count"></p>
+            </div>
         </div>
-        <div id="align">
-        <textarea  id="text" cols="90" rows="10"></textarea><br>
-        <button id="submit" onclick=cal()>Count Words</button>
-        <p id="ans"></p>
     </div>
-    </div>
-    </body>
-    
+</body>
+
 </html>
