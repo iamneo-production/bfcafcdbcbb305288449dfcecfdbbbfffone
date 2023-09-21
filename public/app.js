@@ -1,19 +1,14 @@
-function cal()
-        {
-        let a = [1,2,3,4,5,6,7,8,9,0,'!','@','#','$','%','^','&','*',']',')'];
-        let sent = document.getElementById("text").value;
-        let words = sent.split(" ");
-        let count =0;
-        for(let i in words)       
-        {
-            if(words[i] in a)
-            {
+function cal() {
+    const userInput = document.getElementById("text").value
 
-            }   
-            else
-            {
-                count+=1;
-            }
-        }
-        document.getElementById("ans").innerHTML = "Word count: "+count;
-        }
+    if (userInput.trim() === '') {
+        document.getElementById("ans").innerText = "Error";
+    }
+
+    const words = userInput.split(/\s+/)
+
+    const filterWords = words.filter(word => /[a-zA-Z]+/.test(word))
+    const wordCount = filterWords.length
+    
+    document.getElementById("ans").innerHTML = "Word count: " + wordCount;
+}
