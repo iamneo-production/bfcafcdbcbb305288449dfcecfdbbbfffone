@@ -12,16 +12,17 @@ body
         {
             background-color: darkgreen;
             height: auto;
-            width: auto;
+            width: 100px;
             padding:5px;
             color: white;
             border-style: none;
-            border-radius: 3px;
-
-           
+            border-radius: 3px;         
             
 
            
+        }
+        textarea{
+            width:600px ;
         }
         h1{
             display: flex;
@@ -30,6 +31,7 @@ body
       #align{
         display:flex;
         justify-content: center;
-        align-items:inherit;
+        flex-direction: column;
+        margin-left: 25%;
       }
       
